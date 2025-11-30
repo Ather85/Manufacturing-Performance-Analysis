@@ -37,3 +37,7 @@ Steps:
 - `README.md` — this data story and recommendations
 
 **Solution statement:** implement predictive maintenance program
+
+# Codex verification update
+This update ensures README.md is included in the pull request.
+
