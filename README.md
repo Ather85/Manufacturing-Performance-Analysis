@@ -13,6 +13,7 @@ Quarterly equipment efficiency rates (2024):
 
 **Industry target:** 90
 
+ 
 ## Key Findings
 - The equipment efficiency rate improved from **72.08** in Q1 to a peak of **79.04** in Q3, then slightly declined to **78.68** in Q4.
 - The 2024 average efficiency is **76.6**, which is **13.4 percentage points below** the industry target of 90.
