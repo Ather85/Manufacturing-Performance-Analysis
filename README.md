@@ -1,51 +1,39 @@
-# Equipment Efficiency Analysis — 2024
+# Manufacturing Performance Analysis — 2024
 
 **Author / Contact:** 24f1000999@ds.study.iitm.ac.in
 
-## Dataset
-Quarterly equipment efficiency rates (2024):
-- Q1: 72.08
-- Q2: 76.59
-- Q3: 79.04
-- Q4: 78.68
+## Overview
+This analysis investigates quarterly equipment efficiency rates for 2024 and compares them to the industry benchmark target of **90%**. The observed average efficiency across the year is **76.6%**. This analysis was prepared using Jules (ChatGPT Codex): https://chatgpt.com/codex/tasks
 
-**Calculated average:** **76.6**
-
-**Industry target:** 90
+## Quarterly Efficiency Data
+- **Q1:** 72.08
+- **Q2:** 76.59
+- **Q3:** 79.04
+- **Q4:** 78.68
+- **Average:** **76.6**
 
 ## Key Findings
-- The equipment efficiency rate improved from **72.08** in Q1 to a peak of **79.04** in Q3, then slightly declined to **78.68** in Q4.
-- The 2024 average efficiency is **76.6**, which is **13.4 percentage points below** the industry target of 90.
-- The quarterly trend shows improvement mid-year but plateaus below target, indicating systemic issues that short-term fixes may not resolve.
+- Efficiency increased from Q1 to Q3 but plateaued below the industry target.
+- The 2024 average efficiency is **76.6**, which is **13.4 percentage points** below target 90.
+- This gap likely stems from high unplanned downtime and reactive maintenance.
 
 ## Business Implications
-- Persistent gap vs. industry target implies increased downtime and higher maintenance costs are likely continuing.
-- Operating below benchmark reduces throughput and may increase per-unit production costs, impacting margins.
-- Strategic investment is required to avoid compounding cost increases and loss of competitive advantage.
+- Operating below the benchmark can increase per-unit costs and reduce throughput.
+- Persistent downtime undermines customer delivery timelines and profitability.
 
 ## Recommendations (Actionable)
-**Primary solution:** Implement a predictive maintenance program.
+**Primary solution:** implement a predictive maintenance program.
+
 Steps:
-1. **Data collection & monitoring:** Deploy sensors and centralized telemetry to capture equipment vitals (vibration, temperature, run-hours).
-2. **Analytics & models:** Build predictive models (time-to-failure, anomaly detection) using historical maintenance and sensor data.
-3. **Prioritized interventions:** Use risk scoring to schedule maintenance for high-risk equipment proactively.
-4. **Pilot program:** Start with 2–3 critical production lines; measure MTBF (mean time between failures) and MTTR (mean time to repair).
-5. **Scale & integrate:** After pilot success, roll out across plant, integrate with CMMS and spare-parts optimization.
+1. Deploy sensors/telemetry (vibration, temperature, run-hours).
+2. Build predictive models for time-to-failure and anomaly detection.
+3. Prioritize maintenance using risk scores and schedule proactively.
+4. Pilot on 2–3 critical production lines; measure MTBF and MTTR improvements.
+5. Scale across plant and integrate with CMMS and spare-parts optimization.
 
-## Expected Impact
-- Predictive maintenance can reduce unplanned downtime, improve availability, and progressively raise equipment efficiency toward the 90 target.
-- Early adopters typically see 10–40% reduction in downtime; combined with process improvements, the efficiency gap can be narrowed.
-
-## Files in this PR
-- `analysis.py` — Python code to reproduce the chart (`equipment_efficiency_trend.png`)
-- `equipment_efficiency_trend.png` — Visualization of quarterly trend vs. benchmark
-- `README.md` — This data story and recommendations (includes email and correct average = 76.6)
-
-## How to reproduce
-1. Clone repository.
-2. Run `python analysis.py` (requires matplotlib).
-3. Open `equipment_efficiency_trend.png`.
-
----
+## Files included in this PR
+- `analysis.py` — Python script reproducing the trend chart
+- `equipment_efficiency_trend.png` — visualization of quarterly trend and benchmark
+- `README.md` — this data story and recommendations
 
 **Solution statement:** implement predictive maintenance program
