@@ -7,6 +7,7 @@ Author/Contact: 24f1000999@ds.study.iitm.ac.in
 
 import matplotlib.pyplot as plt
 
+
 quarters = ['Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024']
 values = [72.08, 76.59, 79.04, 78.68]
 average = 76.6
